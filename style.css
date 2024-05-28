@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.logo span{
+    font-size: 15px;
+}
+.logo{
+    color: rgb(254, 254, 253);
+}
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin-top: 1px;
+}
+
+a{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    
+}
+#nvbtn{
+    padding: 9px;
+    width: 90px;
+    margin-top: 1px;
+    border:2px solid black;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+header{
+    background-image: url(assets/pexels-kawserhamid-176342.jpg);
+    height: 580px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.para1{
+    margin-top: 110px;
+    /* margin-left: 100px; */
+
+}
+.herohead{
+    color: white;
+    font-size:80px;
+    margin-left: 20px;
+}
+.headersp{
+    color: rgb(36, 11, 1);
+
+}
+.over{
+    background-color: rgba(0, 0, 0, 0.749);
+    height: 580px;
+    position: absolute;
+}
+.para2{
+color: white;
+margin-left: 20px;
+font-size: 25px;
+font: weight 10px;
+margin-top: 15px;
+
+}
+
+#herobtn{
+ padding: 9px;
+ width: 130px;
+ margin-top: 15px;
+ border: 1px solid rgb(250, 249, 249);
+ background-color: transparent;
+ color: white;
+ border-radius: 10px;
+ margin-left: 20px;
+}
+.heerosection{
+    margin-left: 310px;
+}
+.thirdsec{
+    /* margin-left: 700px; */
+    margin:80px 0px 80px 700px ;
+    font-size: 24px;
+    padding-top: 35px;
+}
+.thirdsecdiv{
+    margin-left: 85px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 85px;
+    margin-bottom: 85px;
+    padding-bottom: 85px;
+}
+.bxs-bulb{
+color: orange;
+width: 100%;
+align-items: center;
+}
+.divone{
+background-color: rgb(251, 250, 248);
+padding: 25px;
+border-radius: 10px;
+}
+h5{
+    font-size: 23px;
+    padding-bottom: 10px;
+
+}
+section{
+    background-color: rgb(244, 229, 229);
+    margin-top: -80px;
+    top: 0;
+}
+.par3{
+/* font-size: 18px; */
+color: orange;
+}
