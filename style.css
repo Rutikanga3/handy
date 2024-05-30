@@ -19,6 +19,13 @@
     gap: 35px;
     margin-top: 1px;
 }
+.bx-menu{
+    margin-left: 100px;
+    width: 100%;
+    height: 90px;
+    display: none;
+    
+}
 
 a{
     text-decoration: none;
@@ -255,4 +262,115 @@ color: orange;
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
+}
+@media (max-width: 768px) {
+    .herohead {
+        font-size: 60px;
+    }
+    #nvbtn {
+        padding: 9px;
+        width: 90px;
+        margin-top: 1px;
+        border: 2px solid black;
+        background-color: transparent;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        height: 40px;
+    }
+
+
+
+    .navlinks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heerosection {
+        margin-left: 50px;
+        /* margin-top: 20px; */
+    }
+    .herohead{
+        color: white;
+        font-size: 60px;
+        margin-left: 20px;
+        margin-top: -70px;
+
+    }
+
+    .thirdsec{
+        margin: 40px 0px 40px 300px;
+        
+    }
+    .thirdsc {
+        margin: 40px 0px 40px 100px;
+    }
+    .thirdsecdiv{
+        margin-left: 85px;
+        display: block;
+        margin-right: 85px;
+        margin-bottom: 85px;
+        padding-bottom: 85px;
+    }
+    .divone{
+        margin-bottom: 25px;
+        /* align-content: center; */
+        padding-left: 85px;
+        width: 570px;
+        font-size: 1.5rem;
+
+    }
+
+    .blogdiv {
+        grid-template-columns: 1fr;
+    }
+    .para2 {
+        color: white;
+        margin-left: 20px;
+        font-size: 21px;
+        font: weight 7px;
+        margin-top: 15px;
+    
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    .herohead {
+        font-size: 40px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navlinks {
+        gap: 15px;
+    }
+
+    .heerosection {
+        margin-left: 20px;
+    }
+
+    .thirdsec,
+    .thirdsc {
+        margin: 20px 0px 20px 20px;
+    }
+
+    .blogdiv {
+        grid-template-columns: 1fr;
+    }
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid5,
+    .grid6,
+    .grid7,
+    .grid8 {
+        font-size: 20px;
+        height: 150px;
+    }
 }
