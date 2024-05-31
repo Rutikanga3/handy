@@ -19,9 +19,20 @@ document.addEventListener('DOMContentLoaded',function(){
     var gridd = document.getElementsByClassName('grid1')
 gridd.addEventListener('mouseover',function(){
    gridd.style.backgroundImage = 'url("assets/pexels-pixabay-51325.jpg")'
-//    gridd.backgroundSize = 'cover'
-//    gridd.backgroundPosition = 'center'
-//    gridd.backgroundRepeat = 'no-repeat'
+   gridd.style.backgroundSize = 'cover'
+   gridd.style.backgroundPosition = 'center'
+   gridd.style.backgroundRepeat = 'no-repeat'
    
 });
 });
+document.addEventListener('DOMContentLoaded',function(){
+    let burger = document.getElementsByClassName('bx bx-menu')
+    let navy = document.getElementsByClassName('navlinks')
+    burger.addEventListener('click',function(){
+        navy.style.visibility = 'visible';
+        navy.style.display = 'flex';
+        navy.style.flexDirection = 'column';
+        
+        
+    })
+})
