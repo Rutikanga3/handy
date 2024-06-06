@@ -159,6 +159,7 @@ color: orange;
     padding: 20px;
     column-gap: 15px;
     row-gap: 15px;
+    margin-bottom: 90px;
 }
 .grid1{
     background-color: rgb(227, 215, 211);
@@ -271,11 +272,13 @@ color: orange;
     font-size: 24px;
 }
 .newsec{
-    margin:40px;
+    /* margin:36px; */
     text-align: center;
     display: flex;
     justify-content: space-between;
-    /* flex-direction: column; */
+    background-color: rgb(249, 231, 245);
+    margin-top: -35px;
+    padding: 30px;
 }
 #knowpara{
     margin-left: 15px;
