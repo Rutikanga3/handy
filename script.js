@@ -36,3 +36,8 @@ document.addEventListener('DOMContentLoaded',function(){
         
     })
 })
+
+var navLinks = document.querySelectorAll('.navlink');
+navLinks.forEach(function(navLink) {
+navLink.style.listStyleType = 'none';
+})
