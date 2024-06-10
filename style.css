@@ -320,10 +320,22 @@ footer{
     border: 1px solid black;
     border-radius: 9px;
     color: white;
+    cursor: pointer;  
+}
+#footbtn :hover{
+transform: translateZ(-10px);
 }
 
-.navlink{
-    /* padding-bottom: 20px; */
+
+.list{
+    padding-bottom: 20px;
+}
+.log span {
+    font-size: 15px;
+}
+.log{
+    padding-top: 40px;
+    left: 0;
 }
 @media (max-width: 768px) {
     .herohead {

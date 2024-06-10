@@ -57,3 +57,7 @@ navLink.style.listStyleType = 'none';
 // })
  let divon = document.getElementsByClassName('divone')
  divon.style.transition = 'transform 0.3s ease 0s';
+
+ let footerbutton = document.getElementById('footbtn')
+footerbutton.style.transition = 'transform 0.2s ease 0s';
+
