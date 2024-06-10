@@ -41,3 +41,19 @@ var navLinks = document.querySelectorAll('.navlink');
 navLinks.forEach(function(navLink) {
 navLink.style.listStyleType = 'none';
 })
+// document.addEventListener('DOMContentLoaded',function(){
+//     let divon = document.getElementsByClassName('divone')
+//     divone.addEventListener('mouseover',function(){
+//         divon.style.transition = 'transform 0.3s ease 0s';
+        
+//     })
+// })
+// document.addEventListener('DOMContentLoaded',function(){
+//     let divon = document.getElementsByClassName('divone')
+//     divon.addEventListener('mouseout',function(){
+//         divon.style.transition = 'none';
+        
+//     })
+// })
+ let divon = document.getElementsByClassName('divone')
+ divon.style.transition = 'transform 0.3s ease 0s';
