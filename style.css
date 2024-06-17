@@ -306,15 +306,20 @@ color: orange;
     
 }
  .container {
-     max-width: 400px;
+     max-width: 100%;
      margin: 50px auto;
      padding: 20px;
-     background-color: #fff;
+     background-color: #bbabab;
      border-radius: 5px;
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+ }
+ form{
+     max-width: 400px;
+     margin-left: 550px;
+     padding: 20px;
  }
 
- h2 {
+ #formheader {
      text-align: center;
      margin-bottom: 20px;
  }
@@ -346,7 +351,7 @@ color: orange;
  }
 
  button:hover {
-     background-color: rgb(95, 237, 129);
+     background-color: rgb(95, 93, 64);
  }
 footer{
     display: inline-flex;
