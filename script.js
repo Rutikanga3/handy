@@ -61,3 +61,14 @@ navLink.style.listStyleType = 'none';
  let footerbutton = document.getElementById('footbtn')
 footerbutton.style.transition = 'transform 0.2s ease 0s';
 
+document.addEventListener('DOMContentLoaded',function(){
+    let secondPic = document.getElementsByClassName('secpic')
+    secondPic.addEventListener('click',function(){
+     secondPic.style.backgroundImage = 'url("assets/pexels-pixabay-51325.jpg")'
+     secondPic.style.backgroundSize = 'cover'
+     secondPic.style.backgroundPosition = 'center'
+     secondPic.style.backgroundRepeat = 'no-repeat' 
+        
+        
+    })
+})
